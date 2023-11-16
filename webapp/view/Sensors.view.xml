@@ -7,7 +7,7 @@
     xmlns:grid="sap.ui.layout.cssgrid"
     core:require= "{
         util: 'devuiapp/sensormanager/format/util'
-    }"
+                }"
     displayBlock="true" >
     <Page id="page" title="{i18n>title}">
     <headerContent>

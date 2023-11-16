@@ -26,7 +26,7 @@ export default class SensorStatus extends Controller {
 }
 
 function onInit() {
-    throw new Error("Function not implemented.");
+    throw new Error("Function not implemented."); 
 }
 
 

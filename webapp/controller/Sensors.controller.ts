@@ -23,7 +23,7 @@ export default class Sensors extends Controller {
 
     public onInit() {        
 
-        const ownerComp = this.getOwnerComponent();
+        const ownerComp = this.getOwnerComponent(); 
         this.getSensorModel().dataLoaded().then(function() {
             const resourceModel = ownerComp?.getModel("i18n") as ResourceModel;
             const resourceBundle = resourceModel.getResourceBundle() as ResourceBundle;

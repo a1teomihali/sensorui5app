@@ -10,7 +10,7 @@
         draggable="true"
         items="{ 
                 path: 'sensorModel>/customers',
-                sorter: {path: 'name'}
+                sorter: {path: 'name'} 
                 }">
             <StandardListItem title="{sensorModel>name}" />           
         </SelectDialog>

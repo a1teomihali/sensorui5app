@@ -8,7 +8,7 @@
     xmlns:core="sap.ui.core"
     core:require= "{
         util: 'devuiapp/sensormanager/format/util'
-    }" 
+        }" 
     xmlns:mc="sap.suite.ui.microchart">
     <Page 
         id="SensorStatusPage"
